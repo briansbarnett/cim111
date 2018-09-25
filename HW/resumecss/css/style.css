@@ -1,22 +1,45 @@
 @import
 url('https://fonts.googleapis.com/css?family=Teko');
 
+@import
+url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+
 
 
 body{
-    background-color: green;
+    background-color: silver;
+    font-family: 'Titillium Web', sans-serif;
+  }
+
+address{
+font-family: 'Teko', sans-serif;
+font-size: 20px
+}
+
+h1{
+    background-color: black;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 60px;
+}
+
+
+h2{
+    background-color: black;
+    color: white;
     font-family: 'Teko', sans-serif;
 }
 
 
 a{
   text-decoration: none;
-  color: yellow;
+  color: red;
   font-weight: 200;
 }
 
 
 a:hover{
-  color: black;
-  text-decoration: strong;
+  color: DarkRed;
+  text-decoration: overline;
 }
