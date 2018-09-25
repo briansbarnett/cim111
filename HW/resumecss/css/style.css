@@ -7,3 +7,16 @@ body{
     background-color: green;
     font-family: 'Teko', sans-serif;
 }
+
+
+a{
+  text-decoration: none;
+  color: yellow;
+  font-weight: 200;
+}
+
+
+a:hover{
+  color: black;
+  text-decoration: strong;
+}
