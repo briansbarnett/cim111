@@ -10,16 +10,44 @@ url('https://fonts.googleapis.com/css?family=Titillium+Web');
 body{
     background-color: silver;
     font-family: 'Titillium Web', sans-serif;
+    cursor: wait;
   }
+
+
+
+  #name {
+    color: cyan;
+  }
+
+
+  #work {
+    color: : black;
+  }
+
+
+  #image {
+    border: thick double #32a1ce;
+
+  }
+
+
+  .tablehead {
+      color: : DarkRed;
+      text-decoration-style: wavy;
+    }
+
+
+
 
 address{
 font-family: 'Teko', sans-serif;
 font-size: 20px
 }
 
+
+
 h1{
     background-color: black;
-    color: white;
     font-family: 'Teko', sans-serif;
     font-size: 60px;
 }
@@ -27,9 +55,12 @@ h1{
 
 h2{
     background-color: black;
-    color: white;
     font-family: 'Teko', sans-serif;
 }
+
+
+
+
 
 
 a{
