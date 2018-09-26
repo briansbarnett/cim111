@@ -15,28 +15,49 @@ body{
 
 
 
-  #name {
-    color: cyan;
+  #name{
+    color: DarkRed;
     font-family: 'Teko', sans-serif;
+    font-size: 50px;
   }
 
 
-  #work {
-    color: : black;
+
+  #work{
+    color: DarkRed;
   }
 
 
-  #image {
+  #about{
+    color: White;
+  }
+
+
+  #skills{
+    color: DarkRed;
+  }
+
+
+  #interests{
+    color: White;
+  }
+
+
+
+  #image{
     border: thick double #32a1ce;
 
   }
 
 
-  .tablehead {
-      color: : DarkRed;
-      text-decoration-style: wavy;
+.table{
+      color: DarkRed;
     }
 
+
+.job{
+  padding: 20px;
+}
 
 
 
@@ -53,9 +74,6 @@ h2{
     background-color: black;
     font-family: 'Teko', sans-serif;
 }
-
-
-
 
 
 
