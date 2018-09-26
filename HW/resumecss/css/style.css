@@ -17,6 +17,7 @@ body{
 
   #name {
     color: cyan;
+    font-family: 'Teko', sans-serif;
   }
 
 
@@ -46,11 +47,6 @@ font-size: 20px
 
 
 
-h1{
-    background-color: black;
-    font-family: 'Teko', sans-serif;
-    font-size: 60px;
-}
 
 
 h2{
