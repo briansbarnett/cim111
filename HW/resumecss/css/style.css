@@ -30,16 +30,22 @@ body{
 
   #about{
     color: White;
+    outline-width: 10px;
+    outline-style: solid;
+    outline-color: DarkRed;
+
   }
 
 
   #skills{
     color: DarkRed;
+    letter-spacing: 50px;
   }
 
 
   #interests{
     color: White;
+    text-decoration: underline;
   }
 
 
