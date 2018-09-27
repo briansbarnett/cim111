@@ -17,6 +17,13 @@ background-color: pink;
 width: 100px;
 height: 300px;
 padding: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+border: solid;
+border-width: 5px;
+border-style: dashed;
 
 
 }
