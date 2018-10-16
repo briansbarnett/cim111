@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch');
+
+h1{
+  text-align: center;
+  padding-top: 20px;
+}
+
+header, footer{
+  background-color: grey;
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: -20px;
+  /* text-align: center; */
+}
+
+body{
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+
+main{
+  width: 60%;
+  height: auto;
+  color: grey;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+
+.columns{
+  width: 180px;
+  height: 400px;
+  background-color: aqua;
+  display: inline-block;
+  margin-right: 15px;
+  margin: 0 auto;
+}
