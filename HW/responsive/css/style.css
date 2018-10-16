@@ -5,10 +5,18 @@ h1{
   padding-top: 30px;
 }
 
-header, footer{
+header{
   background-color: grey;
   width: 80%;
   height: 200px;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+footer{
+  background-color: grey;
+  width: 80%;
+  height: 90px;
   margin: 0 auto;
   margin-top: -20px;
 }
