@@ -30,6 +30,12 @@ nav ul li a:hover{
 }
 
 
+#sectionsl{
+text-align: left;
+
+}
+
+
 #grid1{
 padding-top: 40px;
   display: grid;
