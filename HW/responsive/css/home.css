@@ -1,15 +1,14 @@
 @import "style.css";
 
 nav{
-  background-color: white;
-  width: 65%;
+  background-color: grey;
+  width: 75%;
   margin: 0 auto;
 }
 
 nav ul{
 width: 450px;
 margin: 0 auto;
-
 }
 
 nav ul li{
@@ -19,7 +18,7 @@ nav ul li{
 
 nav ul li a{
   text-decoration: none;
-  color: grey;
+  color: white;
   font-size: 20px;
   padding: 20px;
   text-align: center;
