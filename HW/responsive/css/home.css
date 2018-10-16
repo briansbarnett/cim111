@@ -36,6 +36,11 @@ text-align: left;
 }
 
 
+#sectionsr{
+text-align: right;
+
+}
+
 #grid1{
 padding-top: 40px;
   display: grid;
@@ -69,13 +74,24 @@ padding-top: 40px;
 #col4{
   grid-area: col4;
   height: auto;
+  text-align: right;
 }
 
 
-.images{
+.imageright{
   height: 300px;
   display: block;
   margin: 10px auto;
   padding-top: 50px;
   padding-left: 130px;
+}
+
+
+
+.imageleft{
+  height: 300px;
+  display: block;
+  margin: 10px auto;
+  padding-top: 50px;
+  padding-right: 130px;
 }

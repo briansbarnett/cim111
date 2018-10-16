@@ -30,6 +30,7 @@ main {
     width: 100%;
     height: 600px;
     margin: 0 auto;
+    text-align: center
 }
 
 footer {
@@ -37,4 +38,19 @@ footer {
     height: 50px;
     background-color: grey;
     margin: 0 auto;
+}
+
+.imageright{
+  height: 300px;
+  display: block;
+  margin: 10px auto;
+  padding-top: 50px;
+}
+
+
+.imageleft{
+  height: 300px;
+  display: block;
+  margin: 10px auto;
+  padding-top: 50px;
 }
