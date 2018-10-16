@@ -73,7 +73,9 @@ padding-top: 40px;
 
 
 .images{
-  height: 160px;
+  height: 300px;
   display: block;
   margin: 10px auto;
+  padding-top: 50px;
+  padding-left: 130px;
 }
