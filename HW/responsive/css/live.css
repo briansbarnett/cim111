@@ -1,0 +1,96 @@
+@import "style.css";
+
+nav{
+  background-color: grey;
+  width: 75%;
+  margin: 0 auto;
+}
+
+nav ul{
+width: 450px;
+margin: 0 auto;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul li a:hover{
+  color: black;
+}
+
+
+#sectionsl{
+text-align: left;
+
+}
+
+
+#sectionsr{
+text-align: right;
+
+}
+
+#grid1{
+padding-top: 40px;
+  display: grid;
+  grid-template-areas: "col1";
+  grid-template-rows: 1fr;
+  grid-template-columns: 75% 25%;
+  text-align: center;
+
+}
+#col1{
+  grid-area: col1;
+  height: auto;
+  text-align: right;
+}
+
+
+#grid2{
+  display: grid;
+  grid-template-areas: "col3 col4";
+  grid-template-rows: 1fr;
+  grid-template-columns: 25% 75%;
+  margin-top: 50px;
+  padding-bottom: 130px;
+}
+
+#col3{
+  grid-area: col3;
+  height: auto;
+}
+
+#col4{
+  grid-area: col4;
+  height: auto;
+  text-align: left;
+}
+
+
+.imageright{
+  height: 300px;
+  display: block;
+  margin: 10px auto;
+  padding-top: 50px;
+  float: right;
+}
+
+
+.imageleft{
+  height: 300px;
+  display: block;
+  margin: 10px auto;
+  padding-top: 50px;
+  padding-right: 130px;
+  float: left;
+}
