@@ -21,6 +21,7 @@ nav ul li a{
   color: grey;
   font-size: 20px;
   font-weight: bold;
+
 }
 
 nav ul li a:hover{
@@ -40,6 +41,47 @@ footer {
     background-color: grey;
     margin: 0 auto;
 }
+
+#grid1{
+padding-top: 70px;
+  display: block;
+  grid-template-areas: "col1 col2";
+  grid-template-rows: 1fr;
+  grid-template-columns: 25% 75%;
+  text-align: center;
+
+}
+#col1{
+  grid-area: col1;
+  height: auto;
+  text-align: center;
+}
+
+#col2{
+  grid-area: col2;
+  height: auto;
+}
+
+#grid2{
+  display: block;
+  grid-template-areas: "col3 col4";
+  grid-template-rows: 1fr;
+  grid-template-columns: 75% 25%;
+  margin-top: 50px;
+  padding-bottom: 130px;
+}
+
+#col3{
+  grid-area: col3;
+  height: auto;
+}
+
+#col4{
+  grid-area: col4;
+  height: auto;
+  text-align: center;
+}
+
 
 .imageright{
   height: 300px;
