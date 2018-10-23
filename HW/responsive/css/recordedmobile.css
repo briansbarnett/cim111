@@ -41,14 +41,55 @@ footer {
     margin: 0 auto;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 15px;
-  align-items: center;
-  padding-bottom: 100px;
-  padding-top: 80px;
-  }
-.grid img {
-  max-width: 100%;
+
+#grid1{
+  margin-top: -100px;
+  display: block;
+  grid-template-areas: "col1";
+  grid-template-rows: 1fr;
+  grid-template-columns: 25% 75%;
+  text-align: center;
+  padding-bottom: 130px;
+
+}
+#col1{
+  grid-area: col1;
+  height: auto;
+  text-align: center;
+}
+
+
+#grid2{
+  display: block;
+  grid-template-areas: "col3 col4";
+  grid-template-rows: 1fr;
+  grid-template-columns: 75% 25%;
+  margin-top: 50px;
+  padding-bottom: 130px;
+}
+
+#col3{
+  grid-area: col3;
+  height: auto;
+}
+
+#col4{
+  grid-area: col4;
+  height: auto;
+  text-align: center;
+}
+
+.imageright{
+  height: 300px;
+  display: block;
+  margin: 10px auto;
+  padding-top: 50px;
+}
+
+
+.imageleft{
+  height: 300px;
+  display: block;
+  margin: 10px auto;
+  padding-top: 50px;
 }
