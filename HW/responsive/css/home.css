@@ -31,13 +31,11 @@ nav ul li a:hover{
 
 #sectionsl{
 text-align: left;
-
 }
 
 
 #sectionsr{
 text-align: right;
-
 }
 
 #grid1{
@@ -47,8 +45,8 @@ padding-top: 40px;
   grid-template-rows: 1fr;
   grid-template-columns: 25% 75%;
   text-align: center;
-
 }
+
 #col1{
   grid-area: col1;
   height: auto;
