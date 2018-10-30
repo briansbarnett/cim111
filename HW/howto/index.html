@@ -9,10 +9,12 @@
     <body>
         <header>
           <h1>How To Make a Box of Brownies</h1>
+          <h2 id="subhead">This is where my subhead will go</h2>
+          <h2 id="subhead2">JS isn't complicated!</h2>
         </header>
     <main>
-        <section id="grid2">
-          <div id="col4">
+        <section id="step1" class="grid2">
+          <div class="col4">
             <h2 id="sectionsr">Step 1</h2>
             <h3 id="sectionsr">Buying the Box</h3>
             I prefer Ghiardelli Brownie Mix. I've found it to be the most moist and has the best cake to chip ratio.
@@ -21,56 +23,84 @@
           <img class="imageleft" src="images/placeholder.png">
           </div>
         </section>
-        <section id="grid2">
-          <div id="col4">
-            <h2 id="sectionsr">Step 2</h2>
-            <h3 id="sectionsr">Prepping the Ingredients and Pre-Heating</h3>
+        <section id="step2" class="grid2">
+          <div class="col4">
+            <h2 class="sectionsr">Step 2</h2>
+            <h3 class="sectionsr">Prepping the Ingredients and Pre-Heating</h3>
             I prefer Ghiardelli Brownie Mix. I've found it to be the most moist and has the best cake to chip ratio.
           </div>
-          <div id="col3">
+          <div class="col3">
           <img class="imageleft" src="images/placeholder.png">
           </div>
         </section>
-        <section id="grid2">
-          <div id="col4">
-            <h2 id="sectionsr">Step 3</h2>
-            <h3 id="sectionsr">Mix Well</h3>
+        <section id="step3" class="grid2">
+          <div class="col4">
+            <h2 class="sectionsr">Step 3</h2>
+            <h3 class="sectionsr">Mix Well</h3>
             I prefer Ghiardelli Brownie Mix. I've found it to be the most moist and has the best cake to chip ratio.
           </div>
-          <div id="col3">
+          <div class="col3">
           <img class="imageleft" src="images/placeholder.png">
           </div>
         </section>
-        <section id="grid2">
-          <div id="col4">
-            <h2 id="sectionsr">Step 4</h2>
-            <h3 id="sectionsr">Pouring the Mix</h3>
+        <section id="step4" class="grid2">
+          <div class="col4">
+            <h2 class="sectionsr">Step 4</h2>
+            <h3 class="sectionsr">Pouring the Mix</h3>
             I prefer Ghiardelli Brownie Mix. I've found it to be the most moist and has the best cake to chip ratio.
           </div>
-          <div id="col3">
+          <div class="col3">
           <img class="imageleft" src="images/placeholder.png">
           </div>
         </section>
-        <section id="grid2">
-          <div id="col4">
-            <h2 id="sectionsr">Step 5</h2>
-            <h3 id="sectionsr">Back and Enjoy!</h3>
+        <section id="step5" class="grid2">
+          <div class="col4">
+            <h2 class="sectionsr">Step 5</h2>
+            <h3 class="sectionsr">Back and Enjoy!</h3>
             I prefer Ghiardelli Brownie Mix. I've found it to be the most moist and has the best cake to chip ratio.
           </div>
-          <div id="col3">
+          <div class="col3">
           <img class="imageleft" src="images/placeholder.png">
           </div>
         </section>
     </main>
 
 
-<script src="/javascript/js/jquery-3.3.1.min.js"></script>
+<script src="javascript/js/jquery-3.3.1.min.js"></script>
 <script>
       $(document).ready(function(){
 
 
+  $("#step2").hide();
+  $("#step3").hide();
+  $("#step4").hide();
+  $("#step5").hide();
+  $("#step1").click(function(){
+              $("#step1").hide();
+              $("#step2").show();
+            });
+  $("#step2").click(function(){
+      $("#step2").hide();
+      $("#step3").show();
+                      });
+  $("#step3").click(function(){
+      $("#step3").hide();
+      $("#step4").show();
+});
+  $("#step4").click(function(){
+      $("#step4").hide();
+      $("#step5").show();
+                          });
+  $("#step5").click(function(){
+      $("#step5").hide();
+      $("#step1").show();
+                          });
 
+$("#subhead").css("text-align", "center");
+$("#subhead").css("text-align", "center");
+$("#subhead").html("Click Anywhere to Proceed!");
 
+$("#subhead2").hide();
 
 
 
