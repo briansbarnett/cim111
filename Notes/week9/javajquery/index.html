@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <title>Intro to javascript/jquery</title>
+  </head>
+    <body>
+
+      <h1 id="changetext">Intro to Javascript</h1>
+      <h2 id="info">Mouse over to see more info</h2>
+      <div id="recepticle"></div>
+
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script>
+      $(document).ready(function(){
+        //all code should be placed below
+
+        $("body").css("background-color","pink");
+        $("h1").css("color","blue");
+        $("#changetext").css("font-size","40px");
+        $("#changetext").html("I love Javascript!!");
+
+        $("#changetext").click(function(){
+          $("body").css("background-color","yellow");
+        $("#info").mouseenter(function(){
+          $("#recepticle").html("<em>This information is important</em>");
+
+        });
+        }
+
+      });//end of document ready
+
+      </script>
+    </body>
+    <footer></footer>
+  </html>
