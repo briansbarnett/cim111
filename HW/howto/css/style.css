@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Spicy+Rice');
+
+h1{
+  text-align: center;
+  padding-top: 30px;
+  color: SaddleBrown;
+  font-size: 60px;
+  font-family: 'Spicy Rice', cursive;
+}
+
+h2{
+  text-align: center;
+  padding-top: 20px;
+  color: grey;
+  font-size: 30px;
+  font-family: 'Spicy Rice', cursive;
+  color: SaddleBrown;
+}
+
+header{
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+footer{
+  background-color: SaddleBrown;;
+  width: 60%;
+  height: 90px;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+body{
+font-family: 'Nunito', sans-serif;
+}
+
+
+main{
+  width: 60%;
+  height: auto;
+  color: grey;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+#sectionsl{
+text-align: left;
+}
+
+
+#sectionsr{
+text-align: left;
+}
+
+
+
+#grid2{
+  display: grid;
+  grid-template-areas: "col3 col4";
+  grid-template-rows: 5fr;
+  grid-template-columns: 40% 60%;
+  padding-bottom: 130px;
+}
+
+#col3{
+  grid-area: col3;
+  height: auto;
+  text-align: left;
+}
+
+#col4{
+  grid-area: col4;
+  height: auto;
+  text-align: left;
+}
+
+
+
+.imageleft{
+  height: 300px;
+  display: block;
+  margin: 10px auto;
+  padding-top: 40px;
+  padding-right: 100px;
+  float: left;
+}
