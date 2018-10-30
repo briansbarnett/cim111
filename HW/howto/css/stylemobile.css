@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Spicy+Rice');
+
+
+h1{
+  text-align: center;
+  padding-top: 30px;
+  color: SaddleBrown;
+  font-size: 60px;
+  font-family: 'Spicy Rice', cursive;
+}
+
+h2{
+  text-align: center;
+  padding-top: 20px;
+  color: grey;
+  font-size: 30px;
+  font-family: 'Spicy Rice', cursive;
+  color: SaddleBrown;
+}
+
+body{
+font-family: 'Nunito', sans-serif;
+}
+
+main{
+  height: auto;
+  color: grey;
+  margin: 0 auto;
+  margin-top: -20px;
+  text-align: center;
+}
+
+.imageleft{
+  display: block;
+  margin: 10px auto;
+  padding-top: 40px;
+}

@@ -55,7 +55,6 @@ text-align: left;
 }
 
 
-
 #grid2{
   display: grid;
   grid-template-areas: "col3 col4";
