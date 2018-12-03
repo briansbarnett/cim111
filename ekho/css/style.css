@@ -69,10 +69,7 @@ a:focus {
   transition: all 0.25s ease-out;
 }
 
-img {
-  width: 100%;
-  max-width: 100%;
-}
+
 
 
 .nav-container,
@@ -101,17 +98,11 @@ nav a {
   max-height: 94px;
   margin: 0;
   border-radius: 0;
-  transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
 }
 
 .brand {
   float: left;
-  padding: 30px 0 0;
-  transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
+  padding: 20px 0 0;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
 }
@@ -311,9 +302,6 @@ a.icon {
   left: 0;
   z-index: 9999999;
   background: rgba(0, 0, 0, 0.9);
-  transition: all 0.6s ease;
-  -webkit-transition: all 0.6s ease;
-  -moz-transition: all 0.6s ease;
   opacity: 0;
   z-index: -1;
 }
@@ -352,14 +340,12 @@ a.icon {
 .header-one .header-thumb,
 .header-two .header-thumb,
 .header-three .header-thumb,
-.header-four .header-thumb,
-.header-five .header-thumb {
+.header-four .header-thumb{
   padding: 32px 20px 32px 20px !important;
 }
 
 .header-one, .header-two,
-.header-three, .header-four,
-.header-five {
+.header-three, .header-four,{
   height: 42vh !important;
   min-height: 420px;
   padding-top: 120px !important;
