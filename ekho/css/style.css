@@ -199,6 +199,7 @@ a.icon {
   font-weight: 300;
   text-shadow: none;
 }
+
 .close:focus {
   outline: 0px auto -webkit-focus-ring-color;
 }
